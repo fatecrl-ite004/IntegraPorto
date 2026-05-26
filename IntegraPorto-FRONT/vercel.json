@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/swagger-ui/:path*",
+      "destination": "https://integraporto.onrender.com/swagger-ui/:path*"
+    },
+    {
+      "source": "/v3/api-docs",
+      "destination": "https://integraporto.onrender.com/v3/api-docs"
+    },
+    {
+      "source": "/v3/api-docs/:path*",
+      "destination": "https://integraporto.onrender.com/v3/api-docs/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
