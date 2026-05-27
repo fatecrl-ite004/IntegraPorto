@@ -35,7 +35,7 @@ A aplicação web foca na melhor experiência do usuário, construída para ser 
 
 ### [IntegraPorto-API](./IntegraPorto-API)
 O servidor robusto responsável pelas regras de negócio, consistência de dados e segurança, servindo via API RESTful documentada automaticamente.
-* **Stack:** Java 21, Spring Boot 3+
+* **Stack:** Java 21, Spring Boot 4
 * **Segurança:** Spring Security com **JWT** Stateless e Role-Based Access Control (RBAC).
 * **Banco de Dados:** PostgreSQL + Hibernate / JPA
 * **Documentação (Swagger):** Documentação automática e interativa de todos os endpoints disponível publicamente em [integraporto.com.br/swagger-ui/index.html](http://integraporto.com.br/swagger-ui/index.html)
